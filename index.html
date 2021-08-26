@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous"/>
+    <script src="https://kit.fontawesome.com/f204662c91.js"  crossorigin="anonymous"></script>
+    <title>LiteBoard</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="d-flex justify-content-between">
+        <div>
+            <div class="display-6 fw-bold">Lite Board</div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <button class="border border-0 rounded-circle btn-lg btn-light btn-outline-dark p-1 m-1" id="line"><i class="fas fa-slash"></i></button>
+            <button class="border border-0 rounded-circle btn-lg btn-light btn-outline-dark p-1 m-1" id="pen" disabled><i class="fas fa-pen-alt"></i></button>
+            <button class="border border-0 rounded-circle btn-lg btn-light btn-outline-dark p-1 m-1" id="rectangle"><i class="far fa-object-group"></i></button>
+            <button class="border border-0 rounded-circle btn-lg btn-light btn-outline-dark p-1 m-1" id="circle"><i class="far fa-circle"></i></button>
+            <button class="border border-0 rounded-circle btn-lg btn-light btn-outline-dark p-1 m-1" id="text" disabled><i class="fas fa-font"></i></button>
+            <button class="border border-0 rounded-circle btn-lg btn-light btn-outline-dark p-1 m-1" id="eraser" disabled><i class="fas fa-eraser"></i></button>
+            <button class="border border-0 rounded-circle btn-lg btn-light btn-outline-dark p-1 m-1" id="clear"><i class="fas fa-trash"></i></button>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <canvas id="paint-area"></canvas>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
